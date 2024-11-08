@@ -1,6 +1,8 @@
 package br.com.leetcode.array;
 
-class RemoveDuplicatesSortedArray {
+//https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
+	
+class RemoveDuplicatesSortedArrayCopilot {
 	public int removeDuplicates(int[] nums) {
 		if (nums.length == 0)
 			return 0;
@@ -16,6 +18,6 @@ class RemoveDuplicatesSortedArray {
 
 
 	public static void main(String[] args) {
-		new RemoveDuplicatesSortedArray().removeDuplicates(new int[] { 1, 1, 2 });
+		new RemoveDuplicatesSortedArrayCopilot().removeDuplicates(new int[] { 1, 1, 2 });
 	}
 }

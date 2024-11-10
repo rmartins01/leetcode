@@ -14,6 +14,7 @@ class RotateArrayCopilot {
 	    reverse(nums, 0, length - 1);  // Inverter o array completo
 	    reverse(nums, 0, k - 1);       // Inverter a primeira parte
 	    reverse(nums, k, length - 1);  // Inverter a segunda parte
+	    Arrays.stream(nums).forEach(System.out::println);
 	}
 
 	private void reverse(int[] nums, int start, int end) {
@@ -30,8 +31,8 @@ class RotateArrayCopilot {
     
 
 	public static void main(String[] args) {
-		int[] nums = new int[] { 1,2,3,4,5,6,7};
-		new RotateArrayCopilot().rotate(nums, 10);
+		int[] nums = new int[] { -1,-100,3,99};
+		new RotateArrayCopilot().rotate(nums, 2);
 //		Arrays.stream().forEach(System.out::println); 
 	}
 }
